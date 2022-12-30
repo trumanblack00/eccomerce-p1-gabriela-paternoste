@@ -11,11 +11,14 @@ const NavBar = () => {
 
     return(
         <header className='navbar'>
-        <h1 className='title'>DALT</h1>
+        <h1 className='title'>Options</h1>
         <ul className='links'>
-          <li><a href="index.html">Productos</a></li>
-          <li><a href="index.html">Ofertas</a></li>
-          <li><a href="index.html">Envios</a></li>
+        
+        <li><a href="index.html">Productos</a></li>
+        
+        <li><a href="index.html">Ofertas</a></li>
+        
+        <li><a href="index.html">Envios</a></li>
         </ul>
         <CardWidget cantidad="7"/>
         
