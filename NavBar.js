@@ -7,7 +7,7 @@ const NavBar = () => {
 
     return(
         <header className='navbar'>
-        <h1 className='title'>Options</h1>
+        <h1 className='title'>Options </h1>
         <ul className='links'>
         
         <li><a href="index.html">Productos</a></li>
@@ -16,7 +16,7 @@ const NavBar = () => {
         
         <li><a href="index.html">Envios</a></li>
         </ul>
-        <CardWidget cantidad="7"/>
+        <CardWidget cantidad="4"/>
         
       </header>
     )
